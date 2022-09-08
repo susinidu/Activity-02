@@ -1,7 +1,7 @@
 var navigate
 var navigate = document.getElementById("navigate");
 
-navigate.addEventListener ("change",function(){
+navigate.addEventListener ("click",function(){
     window.open(navigate.value);
     console.log(navigate.value);
 
